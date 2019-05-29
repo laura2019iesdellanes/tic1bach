@@ -1,6 +1,8 @@
 <?php
-   echo "Mi nombre es Laura y hoy tengo un buen día"."\n";
-   $k= "Hoy es un buen día ";
-   $p= "para ir a la graduación";
-   echo $k.$p."\n";
+for ($a=2; $a<70; $a=$a+2)
+{
+    if ($a/3!= abs($a/3))
+    {
+        echo $a." ";}
+    };
 ?>
