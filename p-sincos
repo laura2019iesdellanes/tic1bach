@@ -3,7 +3,11 @@ for($i=0; $i<90; $i=$i+1)
 {
     echo "Grado:";
     echo $i;
-    echo " el seno es:";
-    echo sin($i*pi()/180)."\n";  
+    echo " el seno es: ";
+    echo sin($i*pi()/180).",";  
+    echo " el coseno es: ";
+    echo cos ($i*pi()/180).",";
+    echo " la tangente es: ";
+    echo tan ($i*pi()/180)."\n";
 }
 ?>
